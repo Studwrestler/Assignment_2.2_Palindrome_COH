@@ -1,5 +1,9 @@
 import java.util.Stack;
-
+/**
+ * Palindrome does the main checking if its a palindrome
+ * @author Chase
+ *
+ */
 public class Palindrome {
 	public static boolean checkPalindrome(String cleanedInput) {
 
@@ -15,5 +19,5 @@ public class Palindrome {
 		}
 
 		return cleanedInput.equals(reversed.toString());
-	}
-}
+	}//end check palindrome
+}//end class
